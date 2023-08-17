@@ -1,24 +1,24 @@
 # What Makes People Happy: Data Analysis of World Happiness Reports [2015-19]
 By Sung Mo Yang
+Tech Stack: python, jupyter notebook, numpy, matplotlib, pandas, seaborn, sklearn
 
 ## Summary
-The World Happiness Report is an annual publication that assesses the well-being and happiness of people in various countries across the globe. It ranks nations based on a combination of factors, including economic indicators, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption. This comprehensive report provides valuable insights into the factors that contribute to overall happiness and helps policymakers, researchers, and individuals understand the complex interplay between societal, economic, and personal factors that influence well-being on a global scale.<br/>
-This purpose of this analysis was the to determine the impact of the most significant factors contributing to the happiness of the citizens of a nation-state, as well as determine any fluctations in happiness scores/ranks over the course of half a decade.<br/>
-Supervised machine learning models were created, trained, and tested to determine the effectiveness of numeric, predictive models on forecasting happiness trends. By leveraging a vast dataset encompassing socio-economic variables, these models aimed to uncover intricate relationships between different parameters and overall happiness. The insights gleaned from these models could aid in formulating targeted policies, highlighting areas of improvement, and fostering a deeper understanding of the nuanced dynamics that shape well-being on a global scale.<br/>
+The World Happiness Report is an annual publication that assesses the well-being and happiness of people in various countries across the globe. It ranks nations based on a combination of factors, including economic indicators, social support, life expectancy, freedom to make life choices, generosity, and perceptions of corruption. This comprehensive report provides valuable insights into the factors that contribute to overall happiness and helps policymakers, researchers, and individuals understand the complex interplay between societal, economic, and personal factors that influence well-being on a global scale.<br/><br/>
+This purpose of this analysis was the to determine the impact of the most significant factors contributing to the happiness of the citizens of a nation-state, as well as determine any fluctations in happiness scores/ranks over the course of half a decade.<br/><br/>
+Supervised machine learning models were created, trained, and tested to determine the effectiveness of numeric, predictive models on forecasting happiness trends. By leveraging a vast dataset encompassing socio-economic variables, these models aimed to uncover intricate relationships between different parameters and overall happiness. The insights gleaned from these models could aid in formulating targeted policies, highlighting areas of improvement, and fostering a deeper understanding of the nuanced dynamics that shape well-being on a global scale.<br/><br/>
 See relevant python code for further details.
 
 ## Data Preprocessing
 Example of initial, unaltered data:
-./
 ![DataPreprocessing1](/assets/DataPreprocessing1.png)
-<br/>
+<br/><br/>
 The World Happiness Report for 2017 requried cleaning. 'Whisker.high', 'Whisker.low', and 'Dystopia.Residual' were specifically dropped and columns were renamed to maintain consistency with the other dataset columns
 ![DataPreprocessing2](/assets/DataPreprocessing2.png)
-<br/>
+<br/><br/>
 The World Happiness Report for 2018 had invalid/null entries for the 'Perceptions of corruption' column (very ironic). These entries were filled with the dataset mean to maintain the average.
 ![DataPreprocessing3](/assets/DataPreprocessing3.png)
-<br/>
-Resulting Dataset Columns:
+<br/><br/>
+Resulting Dataset Columns:<br/>
 ![DataPreprocessing4](/assets/DataPreprocessing4.png)
 
 ## Exploratory Data Analysis
