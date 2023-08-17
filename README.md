@@ -9,24 +9,25 @@ See relevant python code for further details.
 
 ## Data Preprocessing
 Example of initial, unaltered data:
-![DataPreprocessing1](assets\DataPreprocessing1.png)
+./
+![DataPreprocessing1](/assets/DataPreprocessing1.png)
 <br/>
 The World Happiness Report for 2017 requried cleaning. 'Whisker.high', 'Whisker.low', and 'Dystopia.Residual' were specifically dropped and columns were renamed to maintain consistency with the other dataset columns
-![DataPreprocessing2](assets\DataPreprocessing2.png)
+![DataPreprocessing2](/assets/DataPreprocessing2.png)
 <br/>
 The World Happiness Report for 2018 had invalid/null entries for the 'Perceptions of corruption' column (very ironic). These entries were filled with the dataset mean to maintain the average.
-![DataPreprocessing3](assets\DataPreprocessing3.png)
+![DataPreprocessing3](/assets/DataPreprocessing3.png)
 <br/>
 Resulting Dataset Columns:
-![DataPreprocessing4](assets\DataPreprocessing4.png)
+![DataPreprocessing4](/assets/DataPreprocessing4.png)
 
 ## Exploratory Data Analysis
-![ExploratoryDataAnalysis1](assets\ExploratoryDataAnalysis1.png)<br/>
-![ExploratoryDataAnalysis2](assets\ExploratoryDataAnalysis2.png)<br/>
-![ExploratoryDataAnalysis3](assets\ExploratoryDataAnalysis3.png)<br/>
-![ExploratoryDataAnalysis4](assets\ExploratoryDataAnalysis4.png)<br/>
-![ExploratoryDataAnalysis5](assets\ExploratoryDataAnalysis5.png)<br/>
-![ExploratoryDataAnalysis6](assets\ExploratoryDataAnalysis6.png)
+![ExploratoryDataAnalysis1](/assets/ExploratoryDataAnalysis1.png)<br/>
+![ExploratoryDataAnalysis2](/assets/ExploratoryDataAnalysis2.png)<br/>
+![ExploratoryDataAnalysis3](/assets/ExploratoryDataAnalysis3.png)<br/>
+![ExploratoryDataAnalysis4](/assets/ExploratoryDataAnalysis4.png)<br/>
+![ExploratoryDataAnalysis5](/assets/ExploratoryDataAnalysis5.png)<br/>
+![ExploratoryDataAnalysis6](/assets/ExploratoryDataAnalysis6.png)
 
 ## Modeling
 ### Training and Test Sets
@@ -45,9 +46,9 @@ It is seen as averaging previous data but happiness scores seem to be increasing
 Gradient Boosting is another ensemble learning technique that combines multiple weak predictive models, usually decision trees, to create a strong predictive model. It creates a next possible best model based off the previous. Then it adds the previous to best model in order to minimize the prediction error. Needs to be done sequentially and can’t be done in parallel.
 
 ### Results
-![Results](assets\Results.png)
+![Results](/assets/Results.png)
 <sub>Invented Score: Economy rating * 0.41 + Family rating * 0.72 + Health rating * 0.88 + Freedom rating * 0.8 + Trust rating * 0.4</sub>
 
 
 ### Performance and Accuracy (Root Mean Square Error)
-![Performance](assets\Performance.png)
+![Performance](/assets/Performance.png)
