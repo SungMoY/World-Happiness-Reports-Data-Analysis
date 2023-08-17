@@ -1,5 +1,5 @@
 # What Makes People Happy: Data Analysis of World Happiness Reports [2015-19]
-By Sung Mo Yang
+By Sung Mo Yang<br/>
 Tech Stack: python, jupyter notebook, numpy, matplotlib, pandas, seaborn, sklearn
 
 ## Summary
